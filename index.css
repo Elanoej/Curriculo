@@ -21,11 +21,17 @@
     color: #ffffffde;
     background-color: #242424;
     box-shadow: 3px 0 0 ;
+}
 
+.left-div a{
+    text-decoration: none;
+    color: #ffffffde;
+}
+
+.profile {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
 }
 
 .right-div{
@@ -38,15 +44,14 @@
 
 .img-div {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 10vw;
+    height: 10vw;
     overflow: hidden;
     position: relative;
 }
 
 .img-div > img {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
     transform: scale(1.3);
 }
